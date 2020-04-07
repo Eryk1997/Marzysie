@@ -59,10 +59,8 @@ class Home extends Component {
         </a>
       </div>
       <div className="row">
-        <div className="">
         <Frame />
         </div>
-      </div>
       </div>
       
     );
