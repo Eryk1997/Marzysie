@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
+import Frame from './pages/Home/Frame';
 
 function App() {
   return (
-    <div>
+    <div className="bg-dark">
       <Navbar />
       <Home />
-      
     </div>
   );
 }
